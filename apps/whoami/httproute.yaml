@@ -10,7 +10,7 @@ spec:
       namespace: traefik
       kind: Gateway
   hostnames:
-    - whoami.cluster.domain
+    - whoami.ko1c5cb5wm.anyoqr1.shoot.emk.fuga.cloud
   rules:
     - backendRefs:
         - name: whoami-app
