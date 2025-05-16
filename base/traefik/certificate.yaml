@@ -6,7 +6,7 @@ metadata:
   namespace: traefik
 spec:
   dnsNames:
-    - 'jellyfin.cluster.domain'
+    - 'jellyfin.ko1c5cb5wm.anyoqr1.shoot.emk.fuga.cloud'
   secretName: jellyfin-tls
   issuerRef:
     name: letsencrypt-prod
@@ -19,7 +19,7 @@ metadata:
   namespace: traefik
 spec:
   dnsNames:
-    - 'whoami.cluster.domain'
+    - 'whoami.ko1c5cb5wm.anyoqr1.shoot.emk.fuga.cloud'
   secretName: whoami-tls
   issuerRef:
     name: letsencrypt-prod
